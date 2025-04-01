@@ -2,6 +2,8 @@
 
 Este projeto é uma aplicação web que oferece detalhes completos sobre os países ao redor do mundo. Utilizando a **API REST Countries**, o site permite que os usuários busquem e visualizem informações sobre bandeiras, capitais, populações, e muito mais.
 
+![alt text](<Captura de tela 2025-04-01 075842.png>)
+
 ## Funcionalidades
 
 - **Busca de Países**: Os usuários podem procurar países por nome e visualizar os resultados instantaneamente.
@@ -9,7 +11,10 @@ Este projeto é uma aplicação web que oferece detalhes completos sobre os paí
 
 - **Compartilhar**: O usuário pode compartilhar a página com facilidade por meio de várias plataformas.
 
+![alt text](<Captura de tela 2025-04-01 075904.png>)
+![alt text](<Captura de tela 2025-04-01 075928.png>)
 ## Estrutura do Projeto
+
 
 O sistema é composto pelas seguintes páginas e arquivos:
 
