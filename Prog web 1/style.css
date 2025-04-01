@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Corpo */
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  background-color: #006064;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  font-size: 40px;
+}
+
+.subHeader {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.searchForm input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 320px;
+  transition: border-color 0.3s ease;
+}
+
+.searchForm input:focus {
+  border-color: #00796b;
+  outline: none;
+}
+
+.searchFilters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.searchFilters label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #00796b;
+}
+
+.allCountries {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px auto;
+  max-width: 1200px;
+}
+
+.country {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  gap: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 250px;
+  width: 100%;
+  text-align: center;
+}
+
+.country:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.country img {
+  width: 170px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.country span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #00796b;
+  margin-top: 10px;
+}
+
+.details-button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.details-button:hover {
+  background-color: #004d40;
+  transform: scale(1.05);
+}
+
+.details-button:active {
+  transform: scale(0.95);
+}
+
+.details-button:focus {
+  outline: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+  color: #00796b;
+}
+
+/* Estilo do Rodapé */
+footer a {
+  color: #00796b;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.globe-image {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.globe-image img {
+  width: 200px; /* Tamanho da imagem, ajuste conforme necessário */
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.globe-icon {
+  width: 50px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.globe-header {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  vertical-align: middle;
+}

@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Poppins:wght@300..900&display=swap");
+
+/* Geral */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #e0f7fa;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  font-family: 'Quicksand', sans-serif;
+  color: #00796b;
+  text-align: center;
+}
+
+/* Estilização da seção de detalhes do país */
+.country-details {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-size: 16px;
+}
+
+.country-details img {
+  width: 220px;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.country-details p {
+  font-size: 18px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.country-details strong {
+  color: #00796b;
+}
+
+.country-details a {
+  color: #00796b;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.country-details a:hover {
+  color: #004d40;
+}
+
+/* Botões */
+button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.share-button {
+  background-color: #4caf50;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.share-button:hover {
+  background-color: #388e3c;
+  transform: scale(1.05);
+}
+
+.back-button {
+  background-color: #00796b;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.back-button:hover {
+  background-color: #004d40;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Layout do Cabeçalho */
+header {
+  background-color: #004d40;
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+/* Links e Outros Elementos */
+header, .country-details {
+  border-radius: 12px;
+}
+
